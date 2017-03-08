@@ -1,7 +1,8 @@
 class SingletonClass{
   private static SingletonClass instance = null;
   // Your variables
-  
+  // abc
+  // cde
 
   private SingletonClass(){
       // Make your constructor private, so other class can create multiple instance 
