@@ -1,0 +1,15 @@
+class SingletonClass{
+  private static SingletonClass instance = null;
+  // Your variables
+  
+
+  private SingletonClass(){
+      // Make your constructor private, so other class can create multiple instance 
+  }
+  // This method always retrun existing instance, or if it is first time call it creates a new instance and return
+  public static SingletonClass getInstance(){
+    if(instance == null) instance = new SingletonClass();
+    return instance;
+  }
+  
+}
