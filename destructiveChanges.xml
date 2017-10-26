@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--<types>-->
+        <!--<members>ElifeController</members>-->
+        <!--<members>TestElifeController</members>-->
+        <!--<members>GoalSummary</members>-->
+        <!--<members>GoalDetailController</members> -->
+        <!--<members>GoalDetailControllerTest</members> -->
+        <!--<members>AlertPrecompose_parser</members>-->
+        <!--<members>AlertPrecompose_service</members>-->
+        <!--<members>AlertResponse</members>-->
+        <!--<name>ApexClass</name>-->
+    <!--</types>-->
+    <!--<types>-->
+        <!--<members>Opportunity.NewCase</members>-->
+        <!--<name>WebLink</name>-->
+    <!--</types>-->
+    <!--<types>-->
+        <!--<members>Opportunity.NewCase</members>-->
+        <!--<name>customButton</name>-->
+    <!--</types>-->
+    <!--<types>-->
+        <!--<members>ElifeVF</members>-->
+        <!--<name>ApexPage</name>-->
+    <!--</types>-->
+</Package>
