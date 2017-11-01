@@ -1,0 +1,46 @@
+/**
+ * 
+ * Author: Anand Hood 
+ * Purpose : Master Trigger Handler
+ * 
+ */
+public class AccountMasterTriggerHandler extends BaseClass {
+    
+	private static AccountMasterTriggerHandler instance = null;
+    private AccountMasterTriggerHandler() {
+        //Make constructor private to avoid other class to create another instance
+    }
+    
+    public static AccountMasterTriggerHandler getInstance() {
+        if (instance == null) instance = new AccountMasterTriggerHandler();
+        return instance;
+    }
+    
+    /* This method manages the order of execution */
+    public void handleTrigger(List<Account> newAccountList,
+                             Map<Id,Account> newAccountMap,
+                             List<Account> oldAccountList,
+                              Map<Id, Account> oldAccountMap){
+    
+
+      /** Before */
+        if(isBeforeInsert()){
+          // Add helper class methods here
+        }
+
+        if(isBeforeUpdate()){
+          // Add helper class methods here
+        }
+
+      /** After */
+        if(isAfterInsert()){
+          // Add helper class methods here
+        }
+
+        if(isAfterInsert()){
+          // Add helper class methods here
+        }
+
+
+    }
+}
