@@ -1,4 +1,4 @@
-<project name="aurora" default="test" basedir="../" xmlns:sf="antlib:com.salesforce">
+<project name="SFDC" default="test" basedir="../" xmlns:sf="antlib:com.salesforce">
 
     <property file="src/build.properties"/>
 
