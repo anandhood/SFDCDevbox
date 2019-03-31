@@ -32,6 +32,7 @@ var groups2 = { };
 data.forEach(function(item){
 		console.log(item);
     var list = groups2[item.group];  
+    // if list with item.gorup exists then push new row inside it else create new one
     if(list){
         list.push(item);
     } else{
