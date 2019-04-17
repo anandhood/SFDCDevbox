@@ -1,8 +1,1 @@
-<<<<<<< HEAD
-Update on 04/16 11:18pm from QA
-Update on 04/16 11:18pm from devss
-ABC
-=======
-Update on 04/16 11:18pm from devss
-xyz
->>>>>>> Dev
+from QA
